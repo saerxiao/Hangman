@@ -38,13 +38,11 @@ body, html {
 }
 
 #remaining-guess-region{
-  float: right;
   color: #378ee5;
   margin: 50px 100px 10px 600px; 
 }
 
 #phrase-display-region{
-  float: left;
   color: #378ee5;
   font-size: 48pt;
   margin: 20px 10px 50px 50px; 

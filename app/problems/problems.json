@@ -1,0 +1,30 @@
+[
+  {
+    "phrase": "Hello World!",
+    "errorallowed": 5,
+    "difficulty": 1  },
+  {
+    "phrase": "I feel good.",
+    "errorallowed": 4,
+    "difficulty": 1  },
+  {
+    "phrase": "I'm fine.",
+    "errorallowed": 4,
+    "difficulty": 2  },
+   {
+    "phrase": "How are you?",
+    "errorallowed": 4,
+    "difficulty": 2  },
+   {
+    "phrase": "Happy holidays!",
+    "errorallowed": 7,
+    "difficulty": 1  },
+    {
+    "phrase": "Merry X-mas!",
+    "errorallowed": 4,
+    "difficulty": 1  },
+    {
+    "phrase": "Angular is cool.",
+    "errorallowed": 7,
+    "difficulty": 2  }
+]

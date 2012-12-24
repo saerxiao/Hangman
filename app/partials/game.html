@@ -1,0 +1,30 @@
+<div class="game-region">
+  <div class="status-{{gameStatus}}">{{getStatusText(gameStatus)}}</div>
+  <div id="remaining-guess-region">{{errorLeft}} guesses remaining</div>
+  <div id="phrase-display-region">
+    <table>
+      <tr>
+        <td ng-repeat="letter in displayedPhrase" width="50">{{letter}}</td>
+      <tr>
+    </table>
+  </div>
+  <div>
+    <table>
+      <tr>
+        <td ng-repeat="letter in ['a','b','c','d','e','f','g','h','i','j','k','l','m']"><input type="button" ng-click="updateDisplay(letter)" value={{letter}} class="letter-btn{{selected[letter]}}"></td>
+      </tr>
+      <tr>
+        <td ng-repeat="letter in ['n','o','p','q','r','s','t','u','v','w','x','y','z']"><input type="button" ng-click="updateDisplay(letter)" value={{letter}} class="letter-btn{{selected[letter]}}"></td>
+      </tr>
+    </table>
+    </div>
+    <div id="bottom-region">
+      <div id="div-view-answer-{{gameStatus}}">
+         <a href="" class="btn-primary" ng-click="showAnswer()">See answer</a>
+      </div>
+     <div class="div-nevigate-btn">
+      <a href="" class="btn-primary" ng-click="pickProblem()">Start a new game</a>
+      <a href="#" class="btn-primary">Exit</a>
+      </div>
+    </div>
+</div>
